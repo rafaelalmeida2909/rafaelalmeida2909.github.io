@@ -1,6 +1,6 @@
 <!DOCTYPE HTML><html>
 <head>
-  <title>ESP Web Server</title>
+  <title>Larces</title>
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <meta charset="UTF-8">
   <style>
@@ -19,6 +19,11 @@
     opacity: 70%;
     text-align: left;
     padding-left: 8%;
+  }
+  img{
+    width: 30%;
+    height: 30%;
+    padding-top: 10%;
   }
   .topnav {
     overflow: hidden;
@@ -40,7 +45,7 @@
   }
   .button {
     padding: 15px 50px;
-    font-size: 24px;
+    /* font-size: 24px; */
     text-align: center;
     outline: none;
     color: #fff;
@@ -62,14 +67,13 @@
      transform: translateY(2px);
    }
    .state {
-     font-size: 1.3rem;
+     font-size: 1.1rem;
      color:#8c8c8c;
      font-weight: bold;
    }
   </style>
-<title>Larces</title>
-<meta name="viewport" content="width=device-width, initial-scale=1">
-<link rel="icon" href="data:,">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="icon" href="data:,">
 </head>
 <body>
   <div class="topnav">
@@ -77,6 +81,7 @@
   </div>
   <div class="content">
     <div class="card">
+      <img src="cafeteira.png" />
       <h2>Informações:</h2>
       <!-- <p class="state">Temperature: <span id="temperature">%TEMPERATURE%</span>°C</p> -->
       <p class="state">Estado da Cafeteira: <span id="state">Desconhecido</span></p>
